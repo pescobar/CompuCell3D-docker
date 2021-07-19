@@ -7,6 +7,8 @@ RUN yum -y install epel-release && \
     yum -y install \
     libglvnd-glx \
     libXi \
+    libxkbcommon-x11 \
+    libxkbcommon \
     mesa-dri-drivers \
     wget \
 && yum -y clean all
